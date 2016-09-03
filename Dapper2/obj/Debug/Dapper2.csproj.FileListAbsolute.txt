@@ -1,0 +1,9 @@
+c:\Projects\SimpleInjectorMySqlBugHunt\Dapper2\bin\Debug\Dapper.dll
+c:\Projects\SimpleInjectorMySqlBugHunt\Dapper2\bin\Debug\Dapper.pdb
+c:\Projects\SimpleInjectorMySqlBugHunt\Dapper2\bin\Debug\StyleCop.CSharp.dll
+c:\Projects\SimpleInjectorMySqlBugHunt\Dapper2\bin\Debug\StyleCop.dll
+c:\Projects\SimpleInjectorMySqlBugHunt\Dapper2\bin\Debug\Microsoft.Build.Utilities.v3.5.dll
+c:\Projects\SimpleInjectorMySqlBugHunt\Dapper2\bin\Debug\Microsoft.Build.Utilities.v3.5.xml
+c:\Projects\SimpleInjectorMySqlBugHunt\Dapper2\bin\Debug\pl\Microsoft.Build.Utilities.v3.5.resources.dll
+c:\Projects\SimpleInjectorMySqlBugHunt\Dapper2\obj\Debug\Dapper.dll
+c:\Projects\SimpleInjectorMySqlBugHunt\Dapper2\obj\Debug\Dapper.pdb

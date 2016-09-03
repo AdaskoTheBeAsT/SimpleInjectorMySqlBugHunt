@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution>
+  <Profile Name="Master" IsDefault="false" SingleStartProjectGuid="">
+    <Include>
+      <Project Guid="4b8b07e1-3e47-4e65-8bbc-140d3dceecec" />
+      <Project Guid="e9df5ed1-4cbd-4226-b931-9a51610ac14d" />
+      <Project Guid="5b6e8f1a-ae62-4861-bb07-5980b8614a0b" />
+      <Project Guid="241d81ff-af70-4abd-8c83-9ac5ad09df0d" />
+      <Project Guid="2d07b855-ff1f-4e4e-a86d-6fcd62ad0201" />
+      <Project Guid="d9d90efd-c9b8-4e08-ad99-7d4c324d5e7f" />
+      <Project Guid="35acdd83-9087-40e7-a394-7b57598700e6" />
+      <Project Guid="0f7ea989-b24b-4baa-9bae-978ead06c9a5" />
+    </Include>
+  </Profile>
+</Solution>

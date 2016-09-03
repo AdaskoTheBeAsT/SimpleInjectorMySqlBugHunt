@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4B8B07E1-3E47-4E65-8BBC-140D3DCEECEC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dapper</RootNamespace>
+    <AssemblyName>Dapper</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;ASYNC</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="StyleCop, Version=4.7.1000.0, Culture=neutral, PublicKeyToken=f904653c63bc2738, processorArchitecture=MSIL">
+      <HintPath>..\packages\StyleCop.4.7.49.0\lib\net35\StyleCop.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="StyleCop.CSharp, Version=4.7.1000.0, Culture=neutral, PublicKeyToken=f904653c63bc2738, processorArchitecture=MSIL">
+      <HintPath>..\packages\StyleCop.4.7.49.0\lib\net35\StyleCop.CSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommandDefinition.cs" />
+    <Compile Include="CommandFlags.cs" />
+    <Compile Include="CustomPropertyTypeMap.cs" />
+    <Compile Include="DataTableHandler.cs" />
+    <Compile Include="DbString.cs" />
+    <Compile Include="DefaultTypeMap.cs" />
+    <Compile Include="DynamicParameters.CachedOutputSetters.cs">
+      <DependentUpon>DynamicParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DynamicParameters.cs" />
+    <Compile Include="DynamicParameters.ParamInfo.cs">
+      <DependentUpon>DynamicParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExplicitConstructorAttribute.cs" />
+    <Compile Include="FeatureSupport.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleMemberMap.cs" />
+    <Compile Include="SqlDataRecordHandler.cs" />
+    <Compile Include="SqlDataRecordListTVPParameter.cs" />
+    <Compile Include="SqlMapper.Async.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.CacheInfo.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.cs" />
+    <Compile Include="SqlMapper.DapperRow.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.DapperRowMetaObject.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.DapperTable.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.DeserializerState.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.DontMap.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.GridReader.Async.cs">
+      <DependentUpon>SqlMapper.GridReader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.GridReader.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.ICustomQueryParameter.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.IDataReader.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.Identity.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.IDynamicParameters.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.IMemberMap.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.IParameterCallbacks.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.IParameterLookup.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.ITypeHandler.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.ITypeMap.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.Link.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.LiteralToken.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.Settings.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.TypeDeserializerCache.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.TypeHandler.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlMapper.TypeHandlerCache.cs">
+      <DependentUpon>SqlMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableValuedParameter.cs" />
+    <Compile Include="TypeExtensions.cs" />
+    <Compile Include="UdtTypeHandler.cs" />
+    <Compile Include="WrappedDataReader.cs" />
+    <Compile Include="WrappedReader.cs" />
+    <Compile Include="XmlHandlers.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\Desktop.Analyzers.1.1.0\analyzers\dotnet\cs\Desktop.Analyzers.dll" />
+    <Analyzer Include="..\packages\Desktop.Analyzers.1.1.0\analyzers\dotnet\cs\Desktop.CSharp.Analyzers.dll" />
+    <Analyzer Include="..\packages\Microsoft.AnalyzerPowerPack.1.1.0\analyzers\dotnet\cs\Microsoft.AnalyzerPowerPack.Common.dll" />
+    <Analyzer Include="..\packages\Microsoft.AnalyzerPowerPack.1.1.0\analyzers\dotnet\cs\Microsoft.AnalyzerPowerPack.CSharp.dll" />
+    <Analyzer Include="..\packages\SonarAnalyzer.CSharp.1.17.0\analyzers\SonarAnalyzer.CSharp.dll" />
+    <Analyzer Include="..\packages\SonarAnalyzer.CSharp.1.17.0\analyzers\SonarAnalyzer.dll" />
+    <Analyzer Include="..\packages\System.Runtime.Analyzers.1.1.0\analyzers\dotnet\cs\System.Runtime.Analyzers.dll" />
+    <Analyzer Include="..\packages\System.Runtime.Analyzers.1.1.0\analyzers\dotnet\cs\System.Runtime.CSharp.Analyzers.dll" />
+    <Analyzer Include="..\packages\System.Runtime.InteropServices.Analyzers.1.1.0\analyzers\dotnet\cs\System.Runtime.InteropServices.Analyzers.dll" />
+    <Analyzer Include="..\packages\System.Runtime.InteropServices.Analyzers.1.1.0\analyzers\dotnet\cs\System.Runtime.InteropServices.CSharp.Analyzers.dll" />
+    <Analyzer Include="..\packages\System.Security.Cryptography.Hashing.Algorithms.Analyzers.1.1.0\analyzers\dotnet\cs\System.Security.Cryptography.Hashing.Algorithms.Analyzers.dll" />
+    <Analyzer Include="..\packages\System.Security.Cryptography.Hashing.Algorithms.Analyzers.1.1.0\analyzers\dotnet\cs\System.Security.Cryptography.Hashing.Algorithms.CSharp.Analyzers.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

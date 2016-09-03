@@ -1,0 +1,11 @@
+c:\Projects\SimpleInjectorMySqlBugHunt\mysql-connector-net-6.9.9-src\Source\MySql.Data\bin\debug\MySql.Data.dll
+c:\Projects\SimpleInjectorMySqlBugHunt\mysql-connector-net-6.9.9-src\Source\MySql.Data\bin\debug\MySql.Data.pdb
+c:\Projects\SimpleInjectorMySqlBugHunt\mysql-connector-net-6.9.9-src\Source\MySql.Data\bin\debug\StyleCop.CSharp.dll
+c:\Projects\SimpleInjectorMySqlBugHunt\mysql-connector-net-6.9.9-src\Source\MySql.Data\bin\debug\StyleCop.dll
+c:\Projects\SimpleInjectorMySqlBugHunt\mysql-connector-net-6.9.9-src\Source\MySql.Data\bin\debug\Microsoft.Build.Utilities.v3.5.dll
+c:\Projects\SimpleInjectorMySqlBugHunt\mysql-connector-net-6.9.9-src\Source\MySql.Data\bin\debug\Microsoft.Build.Utilities.v3.5.xml
+c:\Projects\SimpleInjectorMySqlBugHunt\mysql-connector-net-6.9.9-src\Source\MySql.Data\bin\debug\pl\Microsoft.Build.Utilities.v3.5.resources.dll
+c:\Projects\SimpleInjectorMySqlBugHunt\mysql-connector-net-6.9.9-src\Source\MySql.Data\obj\v4.5\MySql.Data.MySqlClient.Properties.Resources.resources
+c:\Projects\SimpleInjectorMySqlBugHunt\mysql-connector-net-6.9.9-src\Source\MySql.Data\obj\v4.5\MySql.Data.csproj.GenerateResource.Cache
+c:\Projects\SimpleInjectorMySqlBugHunt\mysql-connector-net-6.9.9-src\Source\MySql.Data\obj\v4.5\MySql.Data.dll
+c:\Projects\SimpleInjectorMySqlBugHunt\mysql-connector-net-6.9.9-src\Source\MySql.Data\obj\v4.5\MySql.Data.pdb
